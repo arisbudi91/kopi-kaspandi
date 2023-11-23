@@ -19,9 +19,10 @@ document.addEventListener("click", function (e) {
   if (!search.contains(e.target) && !cari.contains(e.target)) {
     cari.classList.remove("active");
   }
-  if (!cart.contains(e.target) && !cari.contains(e.target)) {
+  if (!cart.contains(e.target) && !shoppingCart.contains(e.target)) {
     shoppingCart.classList.remove("active");
   }
+
   // if (
   //   !itemDetailButton.contains(e.target) &&
   //   !itemDetailButton.contains(e.target)
